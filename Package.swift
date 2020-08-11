@@ -12,6 +12,5 @@ let package = Package(
     targets: [
         .target(name: "SystemKit", dependencies: [], path: "SystemKit"),
         .testTarget(name: "SystemKitTests", dependencies: ["SystemKit"], path: "SystemKitTests")
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
